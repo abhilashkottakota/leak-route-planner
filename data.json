@@ -1,0 +1,1001 @@
+{
+ "nextId": 111,
+ "base": {
+  "name": "Chennai Central Depot",
+  "lat": 13.0827,
+  "lng": 80.2707
+ },
+ "distances": {},
+ "leaks": [
+  {
+   "id": 2,
+   "name": "Adyar Junction",
+   "lat": 13.0012,
+   "lng": 80.2565,
+   "severity": "High",
+   "pressure": 2.4,
+   "flow": 165,
+   "status": "Reported",
+   "assignedTo": null,
+   "notes": "",
+   "source": "manual",
+   "createdAt": 1790702347574
+  },
+  {
+   "id": 3,
+   "name": "Anna Nagar 2nd Ave",
+   "lat": 13.085,
+   "lng": 80.2101,
+   "severity": "Medium",
+   "pressure": 3.1,
+   "flow": 140,
+   "status": "Reported",
+   "assignedTo": null,
+   "notes": "",
+   "source": "manual",
+   "createdAt": 1790738347574
+  },
+  {
+   "id": 4,
+   "name": "Velachery Bypass",
+   "lat": 12.9815,
+   "lng": 80.218,
+   "severity": "Low",
+   "pressure": 3.6,
+   "flow": 128,
+   "status": "Reported",
+   "assignedTo": null,
+   "notes": "",
+   "source": "manual",
+   "createdAt": 1790756347574
+  },
+  {
+   "id": 5,
+   "name": "Guindy Industrial Est.",
+   "lat": 13.0067,
+   "lng": 80.2206,
+   "severity": "High",
+   "pressure": 2.2,
+   "flow": 180,
+   "status": "Reported",
+   "assignedTo": null,
+   "notes": "",
+   "source": "manual",
+   "createdAt": 1790723947574
+  },
+  {
+   "id": 6,
+   "name": "Mylapore Tank St",
+   "lat": 13.0368,
+   "lng": 80.2676,
+   "severity": "Medium",
+   "pressure": 3,
+   "flow": 150,
+   "status": "Reported",
+   "assignedTo": null,
+   "notes": "",
+   "source": "manual",
+   "createdAt": 1790745547574
+  },
+  {
+   "id": 102,
+   "name": "Auto-detected near Sensor Nungambakkam",
+   "lat": 13.0569,
+   "lng": 80.2425,
+   "severity": "Medium",
+   "pressure": 2.43,
+   "flow": 171,
+   "status": "Reported",
+   "assignedTo": null,
+   "notes": "Sensor anomaly: pressure 2.43 bar (base 4), flow 171 L/min (base 120).",
+   "source": "sensor",
+   "createdAt": 1790774934585,
+   "sensorId": 205,
+   "resolvedAt": 1790780587591
+  },
+  {
+   "id": 103,
+   "name": "Auto-detected near Sensor Kodambakkam",
+   "lat": 13.0521,
+   "lng": 80.2255,
+   "severity": "High",
+   "pressure": 2.19,
+   "flow": 185,
+   "status": "Reported",
+   "assignedTo": null,
+   "notes": "Sensor anomaly: pressure 2.19 bar (base 4), flow 185 L/min (base 120).",
+   "source": "sensor",
+   "createdAt": 1790775145761,
+   "sensorId": 202
+  },
+  {
+   "id": 105,
+   "name": "Auto-detected near Sensor Perambur",
+   "lat": 13.1143,
+   "lng": 80.2329,
+   "severity": "Critical",
+   "pressure": 2,
+   "flow": 243,
+   "status": "Resolved",
+   "assignedTo": 4,
+   "notes": "Sensor anomaly: pressure 2 bar (base 4), flow 243 L/min (base 120).",
+   "source": "sensor",
+   "createdAt": 1790775151167,
+   "sensorId": 201,
+   "resolvedAt": 1790780584769
+  },
+  {
+   "id": 106,
+   "name": "Auto-detected near Sensor Porur",
+   "lat": 13.0382,
+   "lng": 80.1565,
+   "severity": "High",
+   "pressure": 2.43,
+   "flow": 193,
+   "status": "Reported",
+   "assignedTo": null,
+   "notes": "Sensor anomaly: pressure 2.43 bar (base 4), flow 193 L/min (base 120).",
+   "source": "sensor",
+   "createdAt": 1790775156633,
+   "sensorId": 204
+  },
+  {
+   "id": 107,
+   "name": "thiruvanmiyur",
+   "lat": 12.98514,
+   "lng": 80.25478,
+   "severity": "Medium",
+   "pressure": 3,
+   "flow": 120,
+   "status": "Reported",
+   "assignedTo": null,
+   "notes": "",
+   "source": "manual",
+   "createdAt": 1790775204087
+  },
+  {
+   "id": 110,
+   "name": "Auto-detected near Sensor Sholinganallur",
+   "lat": 12.901,
+   "lng": 80.2279,
+   "severity": "High",
+   "pressure": 2.34,
+   "flow": 192,
+   "status": "Reported",
+   "assignedTo": null,
+   "notes": "Sensor anomaly: pressure 2.34 bar (base 4), flow 192 L/min (base 120).",
+   "source": "sensor",
+   "createdAt": 1790781528584,
+   "sensorId": 203
+  }
+ ],
+ "users": [
+  {
+   "id": 1,
+   "username": "admin",
+   "role": "admin",
+   "name": "Administrator",
+   "hash": "pbkdf2$120000$AKplWr-GJon9rLavGvDBbQ$chj_vFkJKDjD1LRhJaQYdKGSoQxT6VyfPiSjTPH_OHE"
+  },
+  {
+   "id": 2,
+   "username": "engineer",
+   "role": "engineer",
+   "name": "Field Engineer 1",
+   "hash": "pbkdf2$120000$VrT0wDbastOnxuXiL_D3hw$Gt0gyg1nI2kKLR9Z4sS2Pe22tO6gJ4dXQ3iUYEQXllA"
+  },
+  {
+   "id": 3,
+   "username": "engineer2",
+   "role": "engineer",
+   "name": "Field Engineer 2",
+   "hash": "pbkdf2$120000$osgta2Tmz33RD1H7avJaWA$lyorc70iIigkuX8RZNQnJUubzOsr6TfpKkaIt_BnSgw"
+  },
+  {
+   "id": 4,
+   "username": "abhilash",
+   "role": "engineer",
+   "name": "ABHILASH KOTTAKOTA",
+   "hash": "pbkdf2$120000$vz9OYVX8uJBbjVjan_aW8A$Uy8_7FTvmB8Ehuoo5DOvzMfhcnELSMtTcGF-9SroRAM"
+  }
+ ],
+ "sensors": [
+  {
+   "id": 201,
+   "name": "Sensor Perambur",
+   "lat": 13.1143,
+   "lng": 80.2329,
+   "basePressure": 4,
+   "baseFlow": 120,
+   "pressure": 4.04,
+   "flow": 119,
+   "updatedAt": 1790781540785,
+   "history": [
+    {
+     "p": 3.85,
+     "f": 121,
+     "t": 1790775158437
+    },
+    {
+     "p": 2.44,
+     "f": 168,
+     "t": 1790775159312
+    },
+    {
+     "p": 4.12,
+     "f": 124,
+     "t": 1790775160204
+    },
+    {
+     "p": 3.88,
+     "f": 116,
+     "t": 1790777851813
+    },
+    {
+     "p": 2.06,
+     "f": 229,
+     "t": 1790781523917
+    },
+    {
+     "p": 3.98,
+     "f": 123,
+     "t": 1790781525666
+    },
+    {
+     "p": 4.05,
+     "f": 124,
+     "t": 1790781527645
+    },
+    {
+     "p": 1.88,
+     "f": 228,
+     "t": 1790781528584
+    },
+    {
+     "p": 3.95,
+     "f": 116,
+     "t": 1790781529429
+    },
+    {
+     "p": 4,
+     "f": 121,
+     "t": 1790781530129
+    },
+    {
+     "p": 3.91,
+     "f": 125,
+     "t": 1790781530833
+    },
+    {
+     "p": 2.3,
+     "f": 206,
+     "t": 1790781531754
+    },
+    {
+     "p": 3.96,
+     "f": 116,
+     "t": 1790781532470
+    },
+    {
+     "p": 3.94,
+     "f": 119,
+     "t": 1790781533504
+    },
+    {
+     "p": 3.93,
+     "f": 120,
+     "t": 1790781536723
+    },
+    {
+     "p": 3.9,
+     "f": 122,
+     "t": 1790781537412
+    },
+    {
+     "p": 2.87,
+     "f": 157,
+     "t": 1790781538113
+    },
+    {
+     "p": 3.96,
+     "f": 125,
+     "t": 1790781538879
+    },
+    {
+     "p": 4.04,
+     "f": 120,
+     "t": 1790781539959
+    },
+    {
+     "p": 4.04,
+     "f": 119,
+     "t": 1790781540785
+    }
+   ]
+  },
+  {
+   "id": 202,
+   "name": "Sensor Kodambakkam",
+   "lat": 13.0521,
+   "lng": 80.2255,
+   "basePressure": 4,
+   "baseFlow": 120,
+   "pressure": 2.65,
+   "flow": 168,
+   "updatedAt": 1790781540785,
+   "history": [
+    {
+     "p": 3.87,
+     "f": 121,
+     "t": 1790775158437
+    },
+    {
+     "p": 3.92,
+     "f": 115,
+     "t": 1790775159312
+    },
+    {
+     "p": 4,
+     "f": 124,
+     "t": 1790775160204
+    },
+    {
+     "p": 2.37,
+     "f": 222,
+     "t": 1790777851813
+    },
+    {
+     "p": 4.15,
+     "f": 116,
+     "t": 1790781523917
+    },
+    {
+     "p": 2.05,
+     "f": 208,
+     "t": 1790781525666
+    },
+    {
+     "p": 3.92,
+     "f": 119,
+     "t": 1790781527645
+    },
+    {
+     "p": 3.96,
+     "f": 116,
+     "t": 1790781528584
+    },
+    {
+     "p": 2.16,
+     "f": 208,
+     "t": 1790781529429
+    },
+    {
+     "p": 4,
+     "f": 124,
+     "t": 1790781530129
+    },
+    {
+     "p": 4.1,
+     "f": 120,
+     "t": 1790781530833
+    },
+    {
+     "p": 3.98,
+     "f": 117,
+     "t": 1790781531754
+    },
+    {
+     "p": 4.11,
+     "f": 119,
+     "t": 1790781532470
+    },
+    {
+     "p": 4.07,
+     "f": 119,
+     "t": 1790781533504
+    },
+    {
+     "p": 3.87,
+     "f": 115,
+     "t": 1790781536723
+    },
+    {
+     "p": 3.89,
+     "f": 119,
+     "t": 1790781537412
+    },
+    {
+     "p": 3.91,
+     "f": 116,
+     "t": 1790781538113
+    },
+    {
+     "p": 4.03,
+     "f": 122,
+     "t": 1790781538879
+    },
+    {
+     "p": 2.38,
+     "f": 212,
+     "t": 1790781539959
+    },
+    {
+     "p": 2.65,
+     "f": 168,
+     "t": 1790781540785
+    }
+   ]
+  },
+  {
+   "id": 203,
+   "name": "Sensor Sholinganallur",
+   "lat": 12.901,
+   "lng": 80.2279,
+   "basePressure": 4,
+   "baseFlow": 120,
+   "pressure": 1.87,
+   "flow": 171,
+   "updatedAt": 1790781540785,
+   "history": [
+    {
+     "p": 3.86,
+     "f": 117,
+     "t": 1790775158437
+    },
+    {
+     "p": 4.16,
+     "f": 116,
+     "t": 1790775159312
+    },
+    {
+     "p": 3.88,
+     "f": 125,
+     "t": 1790775160204
+    },
+    {
+     "p": 3.87,
+     "f": 121,
+     "t": 1790777851813
+    },
+    {
+     "p": 4.11,
+     "f": 121,
+     "t": 1790781523917
+    },
+    {
+     "p": 3.92,
+     "f": 120,
+     "t": 1790781525666
+    },
+    {
+     "p": 3.93,
+     "f": 116,
+     "t": 1790781527645
+    },
+    {
+     "p": 2.34,
+     "f": 192,
+     "t": 1790781528584
+    },
+    {
+     "p": 2.91,
+     "f": 209,
+     "t": 1790781529429
+    },
+    {
+     "p": 3.99,
+     "f": 124,
+     "t": 1790781530129
+    },
+    {
+     "p": 3.97,
+     "f": 118,
+     "t": 1790781530833
+    },
+    {
+     "p": 4.03,
+     "f": 116,
+     "t": 1790781531754
+    },
+    {
+     "p": 3.9,
+     "f": 120,
+     "t": 1790781532470
+    },
+    {
+     "p": 4.04,
+     "f": 123,
+     "t": 1790781533504
+    },
+    {
+     "p": 1.85,
+     "f": 214,
+     "t": 1790781536723
+    },
+    {
+     "p": 2.55,
+     "f": 159,
+     "t": 1790781537412
+    },
+    {
+     "p": 2.51,
+     "f": 189,
+     "t": 1790781538113
+    },
+    {
+     "p": 2.99,
+     "f": 176,
+     "t": 1790781538879
+    },
+    {
+     "p": 3.92,
+     "f": 123,
+     "t": 1790781539959
+    },
+    {
+     "p": 1.87,
+     "f": 171,
+     "t": 1790781540785
+    }
+   ]
+  },
+  {
+   "id": 204,
+   "name": "Sensor Porur",
+   "lat": 13.0382,
+   "lng": 80.1565,
+   "basePressure": 4,
+   "baseFlow": 120,
+   "pressure": 4.08,
+   "flow": 123,
+   "updatedAt": 1790781540785,
+   "history": [
+    {
+     "p": 4.13,
+     "f": 121,
+     "t": 1790775158437
+    },
+    {
+     "p": 3.84,
+     "f": 123,
+     "t": 1790775159312
+    },
+    {
+     "p": 4.04,
+     "f": 116,
+     "t": 1790775160204
+    },
+    {
+     "p": 2.59,
+     "f": 236,
+     "t": 1790777851813
+    },
+    {
+     "p": 3.99,
+     "f": 124,
+     "t": 1790781523917
+    },
+    {
+     "p": 4.06,
+     "f": 119,
+     "t": 1790781525666
+    },
+    {
+     "p": 4.02,
+     "f": 116,
+     "t": 1790781527645
+    },
+    {
+     "p": 4.1,
+     "f": 117,
+     "t": 1790781528588
+    },
+    {
+     "p": 4.11,
+     "f": 122,
+     "t": 1790781529429
+    },
+    {
+     "p": 1.96,
+     "f": 201,
+     "t": 1790781530129
+    },
+    {
+     "p": 4.16,
+     "f": 122,
+     "t": 1790781530833
+    },
+    {
+     "p": 4.1,
+     "f": 123,
+     "t": 1790781531754
+    },
+    {
+     "p": 3.9,
+     "f": 123,
+     "t": 1790781532470
+    },
+    {
+     "p": 2.74,
+     "f": 185,
+     "t": 1790781533504
+    },
+    {
+     "p": 3.92,
+     "f": 118,
+     "t": 1790781536723
+    },
+    {
+     "p": 4,
+     "f": 117,
+     "t": 1790781537412
+    },
+    {
+     "p": 4.09,
+     "f": 118,
+     "t": 1790781538113
+    },
+    {
+     "p": 4.08,
+     "f": 118,
+     "t": 1790781538879
+    },
+    {
+     "p": 3.14,
+     "f": 214,
+     "t": 1790781539959
+    },
+    {
+     "p": 4.08,
+     "f": 123,
+     "t": 1790781540785
+    }
+   ]
+  },
+  {
+   "id": 205,
+   "name": "Sensor Nungambakkam",
+   "lat": 13.0569,
+   "lng": 80.2425,
+   "basePressure": 4,
+   "baseFlow": 120,
+   "pressure": 3.92,
+   "flow": 123,
+   "updatedAt": 1790781540785,
+   "history": [
+    {
+     "p": 2.86,
+     "f": 158,
+     "t": 1790775158437
+    },
+    {
+     "p": 4.13,
+     "f": 120,
+     "t": 1790775159312
+    },
+    {
+     "p": 3.85,
+     "f": 116,
+     "t": 1790775160204
+    },
+    {
+     "p": 4.14,
+     "f": 122,
+     "t": 1790777851813
+    },
+    {
+     "p": 2.86,
+     "f": 158,
+     "t": 1790781523917
+    },
+    {
+     "p": 4.12,
+     "f": 120,
+     "t": 1790781525666
+    },
+    {
+     "p": 4.05,
+     "f": 122,
+     "t": 1790781527645
+    },
+    {
+     "p": 3.89,
+     "f": 116,
+     "t": 1790781528588
+    },
+    {
+     "p": 3.08,
+     "f": 184,
+     "t": 1790781529429
+    },
+    {
+     "p": 4.15,
+     "f": 119,
+     "t": 1790781530129
+    },
+    {
+     "p": 4.07,
+     "f": 125,
+     "t": 1790781530833
+    },
+    {
+     "p": 2.83,
+     "f": 167,
+     "t": 1790781531754
+    },
+    {
+     "p": 3.99,
+     "f": 120,
+     "t": 1790781532470
+    },
+    {
+     "p": 2.99,
+     "f": 239,
+     "t": 1790781533504
+    },
+    {
+     "p": 4.13,
+     "f": 125,
+     "t": 1790781536723
+    },
+    {
+     "p": 2.76,
+     "f": 157,
+     "t": 1790781537412
+    },
+    {
+     "p": 3.86,
+     "f": 116,
+     "t": 1790781538113
+    },
+    {
+     "p": 4.1,
+     "f": 120,
+     "t": 1790781538879
+    },
+    {
+     "p": 4.06,
+     "f": 115,
+     "t": 1790781539959
+    },
+    {
+     "p": 3.92,
+     "f": 123,
+     "t": 1790781540785
+    }
+   ]
+  }
+ ],
+ "log": [
+  {
+   "msg": "Leak registered: semmenchery (High)",
+   "who": "Administrator",
+   "t": 1790774767999
+  },
+  {
+   "msg": "Leak registered: semmenchery (Medium)",
+   "who": "Administrator",
+   "t": 1790774813899
+  },
+  {
+   "msg": "Leak deleted: T. Nagar Main Rd",
+   "who": "Administrator",
+   "t": 1790774846504
+  },
+  {
+   "msg": "Auto-detected Medium leak near Sensor Nungambakkam",
+   "who": "system",
+   "t": 1790774934589
+  },
+  {
+   "msg": "Leak deleted: semmenchery",
+   "who": "Administrator",
+   "t": 1790775060588
+  },
+  {
+   "msg": "Auto-detected High leak near Sensor Kodambakkam",
+   "who": "system",
+   "t": 1790775145765
+  },
+  {
+   "msg": "Auto-detected High leak near Sensor Sholinganallur",
+   "who": "system",
+   "t": 1790775148086
+  },
+  {
+   "msg": "Auto-detected Critical leak near Sensor Perambur",
+   "who": "system",
+   "t": 1790775151167
+  },
+  {
+   "msg": "Auto-detected High leak near Sensor Porur",
+   "who": "system",
+   "t": 1790775156633
+  },
+  {
+   "msg": "Leak registered: thiruvanmiyur (Medium)",
+   "who": "Administrator",
+   "t": 1790775204087
+  },
+  {
+   "msg": "Leak deleted: semmenchery",
+   "who": "Administrator",
+   "t": 1790775292517
+  },
+  {
+   "msg": "Leak registered: Tambaram (Medium)",
+   "who": "Administrator",
+   "t": 1790777302459
+  },
+  {
+   "msg": "Leak registered: sriperumbudur (Medium)",
+   "who": "Administrator",
+   "t": 1790777811031
+  },
+  {
+   "msg": "Engineer account created: ABHILASH KOTTAKOTA",
+   "who": "ABHILASH KOTTAKOTA",
+   "t": 1790780279977
+  },
+  {
+   "msg": "Leak deleted: sriperumbudur",
+   "who": "Administrator",
+   "t": 1790780308217
+  },
+  {
+   "msg": "Leak deleted: Tambaram",
+   "who": "Administrator",
+   "t": 1790780312032
+  },
+  {
+   "msg": "Auto-detected near Sensor Nungambakkam: status In Progress",
+   "who": "Administrator",
+   "t": 1790780316312
+  },
+  {
+   "msg": "Auto-detected near Sensor Nungambakkam: status Assigned",
+   "who": "Administrator",
+   "t": 1790780318377
+  },
+  {
+   "msg": "Auto-detected near Sensor Nungambakkam: status Assigned",
+   "who": "Administrator",
+   "t": 1790780322146
+  },
+  {
+   "msg": "Auto-detected near Sensor Sholinganallur: status Assigned",
+   "who": "Administrator",
+   "t": 1790780359875
+  },
+  {
+   "msg": "Auto-detected near Sensor Sholinganallur: status Assigned",
+   "who": "Administrator",
+   "t": 1790780364910
+  },
+  {
+   "msg": "Leak deleted: Auto-detected near Sensor Sholinganallur",
+   "who": "Administrator",
+   "t": 1790780384414
+  },
+  {
+   "msg": "Auto-detected near Sensor Perambur: status Assigned",
+   "who": "Administrator",
+   "t": 1790780495354
+  },
+  {
+   "msg": "Adyar Junction: status Assigned",
+   "who": "Administrator",
+   "t": 1790780499421
+  },
+  {
+   "msg": "Auto-detected near Sensor Perambur: status Resolved",
+   "who": "ABHILASH KOTTAKOTA",
+   "t": 1790780584769
+  },
+  {
+   "msg": "Auto-detected near Sensor Nungambakkam: status Resolved",
+   "who": "ABHILASH KOTTAKOTA",
+   "t": 1790780587591
+  },
+  {
+   "msg": "Adyar Junction: status Reported",
+   "who": "ABHILASH KOTTAKOTA",
+   "t": 1790780610618
+  },
+  {
+   "msg": "Auto-detected near Sensor Nungambakkam: status Reported",
+   "who": "ABHILASH KOTTAKOTA",
+   "t": 1790780613604
+  },
+  {
+   "msg": "Auto-detected near Sensor Perambur: status Reported",
+   "who": "ABHILASH KOTTAKOTA",
+   "t": 1790780616033
+  },
+  {
+   "msg": "Auto-detected High leak near Sensor Sholinganallur",
+   "who": "system",
+   "t": 1790781528588
+  },
+  {
+   "msg": "Guindy Industrial Est.: status Assigned",
+   "who": "Administrator",
+   "t": 1790822788317
+  },
+  {
+   "msg": "Guindy Industrial Est.: status Assigned",
+   "who": "Administrator",
+   "t": 1790822791987
+  },
+  {
+   "msg": "Mylapore Tank St: status Assigned",
+   "who": "Administrator",
+   "t": 1790822804656
+  },
+  {
+   "msg": "Mylapore Tank St: status Assigned",
+   "who": "Administrator",
+   "t": 1790822807145
+  },
+  {
+   "msg": "Auto-detected near Sensor Perambur: status Assigned",
+   "who": "ABHILASH KOTTAKOTA",
+   "t": 1790822850426
+  },
+  {
+   "msg": "Auto-detected near Sensor Perambur: status Resolved",
+   "who": "ABHILASH KOTTAKOTA",
+   "t": 1790822863034
+  },
+  {
+   "msg": "Guindy Industrial Est.: status Reported",
+   "who": "Administrator",
+   "t": 1790822885725
+  },
+  {
+   "msg": "Guindy Industrial Est.: status Reported",
+   "who": "Administrator",
+   "t": 1790822888291
+  },
+  {
+   "msg": "Adyar Junction: status Reported",
+   "who": "Administrator",
+   "t": 1790822899827
+  },
+  {
+   "msg": "Mylapore Tank St: status Reported",
+   "who": "Administrator",
+   "t": 1790822905193
+  },
+  {
+   "msg": "Mylapore Tank St: status Reported",
+   "who": "Administrator",
+   "t": 1790822907215
+  },
+  {
+   "msg": "Auto-detected near Sensor Nungambakkam: status Reported",
+   "who": "Administrator",
+   "t": 1790822911054
+  },
+  {
+   "msg": "Auto-detected near Sensor Perambur: status Reported",
+   "who": "Administrator",
+   "t": 1790822916173
+  },
+  {
+   "msg": "Auto-detected near Sensor Perambur: status Reported",
+   "who": "Administrator",
+   "t": 1790822921864
+  },
+  {
+   "msg": "Auto-detected near Sensor Perambur: status Assigned",
+   "who": "Administrator",
+   "t": 1790843824930
+  },
+  {
+   "msg": "Auto-detected near Sensor Perambur: status Resolved",
+   "who": "ABHILASH KOTTAKOTA",
+   "t": 1790843848419
+  }
+ ]
+}

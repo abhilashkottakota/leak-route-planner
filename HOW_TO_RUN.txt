@@ -1,0 +1,24 @@
+HOW TO RUN IN VS CODE (Java version - no Maven/Gradle, no libraries needed)
+
+1. Install a JDK, version 17 or newer (e.g. Temurin/Adoptium from adoptium.net, or Oracle JDK).
+   Check it:  java -version   and   javac -version   (both must work; if not, add the JDK "bin" folder to PATH).
+2. Install VS Code + the "Extension Pack for Java" (Microsoft).
+3. Unzip this file. In VS Code: File > Open Folder > select the "leak-route-planner-java" folder.
+4. Open the terminal: Terminal > New Terminal (Ctrl+`)  - make sure it is in the project root (where "src" and "public" are).
+5. Build and start (pick one):
+     Windows:    run.bat
+     Mac/Linux:  ./run.sh
+   or manually, on any OS:
+     javac -d out src/leakplanner/*.java
+     java -cp out leakplanner.Main
+   (You can also open src/leakplanner/Main.java and click "Run" above main().)
+6. Open http://localhost:5000 in your browser.
+
+Logins:  admin / admin123   (full access)
+         engineer / eng123  (sees only leaks assigned to them)
+
+Stop server: Ctrl+C.  Reset demo data: stop server, delete data.json, start again.
+Different port: set PORT=4000 (Windows CMD: set PORT=4000 | Mac/Linux: export PORT=4000), then run again.
+Production: set SECRET to a long random string (token signing key) and change the default passwords.
+The map needs internet (Leaflet + OpenStreetMap).
+NOTE: run from the project root - the app reads ./public and writes ./data.json relative to the current folder.
